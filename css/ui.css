@@ -385,16 +385,20 @@ img {
   z-index: var(--z-back);
 }
 
-.skills__html {
+.skills__java {
   width: 90%;
 }
 
-.skills__ad {
+.skills__html {
   width: 85%;
 }
 
+.skills__ad {
+  width: 80%;
+}
+
 .skills_sql{
-  width: 60%;
+  width: 70%;
 }
 
 .skills__css {
