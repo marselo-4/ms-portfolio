@@ -512,6 +512,10 @@ img {
   margin-bottom: var(--mb-4);
 }
 
+.footer__social a:hover {
+  color: var(--first-color)
+}
+
 .footer__icon {
   font-size: 1.5rem;
   color: var(--second-color);
@@ -539,6 +543,14 @@ img {
 
 .footer__copy {
   font-size: var(--smaller-font-size);
+}
+
+#email{
+  font-size: 1.4rem;
+}
+
+#email:hover {
+  cursor: pointer;
 }
 
 /* ===== MEDIA QUERIES=====*/

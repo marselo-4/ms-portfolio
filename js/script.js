@@ -54,3 +54,27 @@ sr.reveal('.home__data, .about__img, .skills__subtitle, .skills__text',{});
 sr.reveal('.home__img, .about__subtitle, .about__text, .skills__img',{delay: 400}); 
 sr.reveal('.home__social-icon',{ interval: 200}); 
 sr.reveal('.skills__data, .work__img, .contact__input',{interval: 200}); 
+
+function copiarMail() {
+    /* Get the text from the paragraph */
+    var emailText = document.getElementById("email").innerText;
+
+    /* Create a temporary input element */
+    var tempInput = document.createElement("input");
+    tempInput.value = emailText;
+
+    /* Append the input element to the body */
+    document.body.appendChild(tempInput);
+
+    /* Select the text inside the input element */
+    tempInput.select();
+
+    /* Copy the selected text to the clipboard */
+    document.execCommand("copy");
+
+    /* Remove the temporary input element */
+    document.body.removeChild(tempInput);
+
+    /* Alert the user that the email has been copied */
+    alert("Email copiado al portapapeles!");
+}
