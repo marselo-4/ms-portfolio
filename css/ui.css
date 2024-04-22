@@ -801,3 +801,39 @@ img {
             transform: translate(0);
   }
 }
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-button {
+  width: 8px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: #6804ea;
+  border: 0px none #ffffff;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #5a04c3;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #47029d;
+}
+::-webkit-scrollbar-track {
+  background: #000000;
+  border: 0px none #eb0f0f;
+  border-radius: 1px;
+}
+::-webkit-scrollbar-track:hover {
+  background: #000000;
+}
+::-webkit-scrollbar-track:active {
+  background: #000000;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+/* Fin */
