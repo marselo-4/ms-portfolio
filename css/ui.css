@@ -70,6 +70,7 @@ ul {
 
 a {
   text-decoration: none;
+  color: white;
 }
 
 img {
@@ -386,35 +387,35 @@ img {
 }
 
 .skills__java {
-  width: 90%;
+  width: 100%;
 }
 
 .skills__html {
-  width: 85%;
+  width: 100%;
 }
 
 .skills__ad {
-  width: 80%;
+  width: 100%;
 }
 
 .skills_sql{
-  width: 70%;
+  width: 100%;
 }
 
 .skills__css {
-  width: 75%;
+  width: 100%;
 }
 
 .skills__ux {
-  width: 75%;
+  width: 100%;
 }
 
 .skills_py {
-  width: 30%;
+  width: 100%;
 }
 
 .skills__lua {
-  width: 45%;
+  width: 100%;
 }
 
 .skills__img {
