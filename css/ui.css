@@ -565,10 +565,12 @@ img {
   box-shadow: 15px 11px 30px var(--first-color), -10px -10px 30px rgb(108, 108, 108);
 }
 
-.card :hover .contenido_caja{
+.card .contenido_caja {
+  transition: transform 250ms ease-in-out; /* add transition to normal state */
+}
+
+.card:hover .contenido_caja {
   transform: scale(1.1);
-  transition: 250ms;
-  animation: ease-in-out;
 }
 
 
@@ -684,6 +686,15 @@ img {
     align-items: center;
     box-shadow: 0 0 10px rgb(18, 18, 18);
     text-align: initial;
+  }
+
+  .about__img img {
+    transition: filter 200ms ease-in-out, transform 250ms ease-in-out;
+  }
+  
+  .about__img:hover img {
+    transform: scale(1.04);
+    filter: drop-shadow(4px 4px rgb(105, 5, 235)) drop-shadow(-4px -4px white);
   }
   .skills__container {
     grid-template-columns: .7fr;
